@@ -4,7 +4,8 @@
 
 body {
     margin: 0;
-    font-family: Arial;
+    font-family: baskerville;
+    background-color: rgba(0,0,0,0.1)
 }
 
 .header {
@@ -13,12 +14,23 @@ body {
     font-family: baskerville;
     font-size: 40px;
     margin-bottom: auto;
+    color: gray;
 }
 
   h1:hover {
     color:pink;
   }
 
+  p {
+    font-family: baskerville;
+    color: gray;
+    font-size: 25px;
+    text-rendering: optimizeLegibility;
+  }
+
+  p:hover {
+    color: pink;
+  }
 .row {
     display: -ms-flexbox; /* IE10 */
     display: flex;
@@ -61,7 +73,7 @@ body {
 
   a {
     text-decoration: none;
-    color: pink;
+    color: gray;
     font-family: baskerville;
   }
 
@@ -76,7 +88,7 @@ body {
   color: pink;
 }
 a:hover {
-  color: #48D1CC;
+  color: gray;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
